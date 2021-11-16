@@ -2,7 +2,7 @@
 
 Le projet a été réalisé dans le cadre d'un projet universitaire de MASTER 2 visant a mettre en pratique l'utilisation des Web Component.
 
-Le projet est hébergé a l'adresse suivante : https://samuelmaugard.ovh/Web-Component/
+Le projet est hébergé a l'adresse suivante : http://samuelmaugard.ovh/Web-Component/
 
 # Point intéressant du projet
 
