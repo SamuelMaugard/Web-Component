@@ -529,15 +529,15 @@ class MyAudioPlayer extends HTMLElement {
 
   playlistPlay(item){
     var playlist =[
-      "/myComponents/assets/audio/Muse_Uprising.mp3",
-      "/myComponents/assets/audio/Muse_The_Dark_Side.mp3",
-      "/myComponents/assets/audio/Muse_The_Globalist.mp3",
-      "/myComponents/assets/audio/Muse_Exogenesis_Symphony.mp3",
-      "/myComponents/assets/audio/Muse_Unnatural_Selection.mp3"
+      "/assets/audio/Muse_Uprising.mp3",
+      "/assets/audio/Muse_The_Dark_Side.mp3",
+      "/assets/audio/Muse_The_Globalist.mp3",
+      "/assets/audio/Muse_Exogenesis_Symphony.mp3",
+      "/assets/audio/Muse_Unnatural_Selection.mp3"
     ]
     var songToplay =playlist[parseInt(item)]
     console.log("song to play " +songToplay)
-    this.player.src = songToplay
+    this.player.src = basePath + songToplay
     this.play()
     this.shadowRoot.querySelector("#songTitle").innerHTML = this.shadowRoot.querySelector("#songTitle"+item).innerHTML
 
